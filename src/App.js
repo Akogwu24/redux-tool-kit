@@ -1,9 +1,10 @@
 import './App.css';
+import { Form } from './components/Form';
 
 function App() {
   return (
     <main className='App'>
-      <h1>Redux tool kit</h1>
+      <Form />
     </main>
   );
 }
