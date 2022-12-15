@@ -1,9 +1,10 @@
 import './App.css';
+import TodoList from './features/todos/TodoList';
 
 function App() {
   return (
     <main className='App'>
-      <h1>Redux tool kit</h1>
+      <TodoList />
     </main>
   );
 }
